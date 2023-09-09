@@ -1,20 +1,20 @@
 # Задача 2: Найдите сумму цифр трехзначного числа. 123 -> 6 (1 + 2 + 3)
 # 100 -> 1 (1 + 0 + 0)
 
-from tkinter import S
+# from tkinter import S
 
 
 n = int(print("Введите трёхзначное число: "))
-if (n < 99 or n > 999):
-    print("Число не является трёхзначным! Повторите попытку.")
+n = 423
+summa = 0
+while n > 0:
+    x = n % 10
+    summa = summa + x
+    n = n // 10
 else:
-    s = 0
-    n > 0
-        x = n % 10
-        s = s + x
-        n = n // 10
-    print(s)
-
+    print('Пожалуй')
+    print('хватит )')
+print(summa)
 
 
 
