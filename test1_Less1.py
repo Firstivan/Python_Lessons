@@ -182,16 +182,16 @@ print(1)'''
 # _______________
 
 
-# n = 423
-# summa = 0
-# while n > 0:
-#     x = n % 10
-#     summa = summa + x
-#     n = n // 10
-# else:
-#     print('Пожалуй')
-#     print('хватит )')
-# print(summa)
+n = 423
+summa = 0
+while n > 0:
+    x = n % 10
+    summa = summa + x
+    n = n // 10
+else:
+    print('Пожалуй')
+    print('хватит )')
+print(summa)
 # _________________
 
 

@@ -2,15 +2,12 @@
 # 100 -> 1 (1 + 0 + 0)
 
 
-n = input(print("Введите трёхзначное число: "))
+n = int(input("Введите трёхзначное число: "))
 summa = 0
 while n > 0:
     x = n % 10
     summa = summa + x
     n = n // 10
-# else:
-#     print('Пожалуй')
-#     print('хватит )')
 print(summa)
 
 
