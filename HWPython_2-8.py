@@ -3,12 +3,16 @@
 
 
 n = int(input("Введите трёхзначное число: "))
-summa = 0
-while n > 0:
-    x = n % 10
-    summa = summa + x
-    n = n // 10
-print(summa)
+if 100 <= n <= 999:
+    summa = 0
+    original_n = n  # Сохраняем оригинальное значение числа
+    while n > 0:
+        x = n % 10
+        summa = summa + x
+        n = n // 10
+    print(f'n = {original_n} -> res = {summa}')
+else:
+    print("введено не корректное число. Необходимо трёхзначное. Повторите попытку!")
 
 
 
