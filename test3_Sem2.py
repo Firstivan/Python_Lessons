@@ -162,13 +162,51 @@
 # Output:	1 9
 
 
-n = int(input("Введите кол-во арбузов: "))
-x = int(input("Введите массу арбуза: "))
-max_massa, min_massa =  x, x
-for i in range(n - 1):
-    x = int(input("Введите массу арбуза: "))
-    if max_massa < x:
-        max_massa = x
-    elif min_massa > x:
-        min_massa = x
-print(min_massa, max_massa)
+# n = int(input())
+# max = int(input())
+# min = max
+# for i in range(n-1):
+#     i = int(input())
+#     if i < min:
+#         min = i
+#     elif i > max:
+#         max = i
+# print(max, min)
+
+
+# n = int(input('Введите количество арбузов: '))
+# minimum = 100000000
+# maximum = 0
+# for i in range(n):
+#     weight = int(input('Введите массу арбуза: '))
+#     if weight > maximum:
+#         maximum = weight
+#     if weight < minimum:
+#         minimum = weight
+# print(minimum, maximum)
+
+
+# mass = []
+# arb = int(input())
+# for i in range(arb):
+#     mass.append(int(input()))
+# for i in range(arb):
+#     max = min = mass[0]
+#     if max < mass[i]:
+#         max = mass[i]
+#     if min > mass[i]:
+#         min = mass[i]
+# print(max, min)
+
+
+# n = int(input("Введите кол-во арбузов: "))
+# x = int(input("Введите массу арбуза: "))
+# max_massa, min_massa =  x, x
+# for i in range(n - 1):
+#     x = int(input("Введите массу арбуза: "))
+#     if max_massa < x:
+#         max_massa = x
+#     elif min_massa > x:
+#         min_massa = x
+# print(min_massa, max_massa)
+# _________________________________

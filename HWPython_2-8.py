@@ -103,10 +103,10 @@
 # 3 2 4 -> yes
 # 3 2 1 -> no
 
-# a = 3
-# b = 2
-# c = 4
-# if (a * b) % c == 0:
-#     print('yes')
-# else:
-#     print('no')
+a = 3
+b = 2
+c = 4
+if (a * b) % c == 0:
+    print('yes')
+else:
+    print('no')
