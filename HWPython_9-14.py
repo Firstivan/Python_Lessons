@@ -6,14 +6,14 @@
 # 5 -> 1 0 1 1 0
 # 2
 
-# n = int (input('Введите кол-во монет '))
-# count = 0
-# for i in range(n):
-#   if i == 0:
-#     continue
-#   if (i + 1) % 2 != n % 2 and (i + 1) % 2 != (i - 1) % 2:
-#     count += 1
-# print(count)
+n = int (input('Введите кол-во монет '))
+count = 0
+for i in range(n):
+  if i == 0:
+    continue
+  if (i + 1) % 2 != n % 2 and (i + 1) % 2 != (i - 1) % 2:
+    count += 1
+print(count)
 
 
 # def flip_coins(n):
@@ -83,10 +83,10 @@
 # 10 -> 1 2 4 8
 
 
-n = int(input('Введите число n: '))
-k = 0
-res = 1
-while res < n+1:
-    print(res, end=' ')
-    k += 1
-    res = 2 ** k
+# n = int(input("Введите число n: "))
+# count = 0
+# res = 1
+# while res < n + 1:
+#     print(res, end='-> ')
+#     count += 1
+#     res = 2 ** count
