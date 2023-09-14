@@ -6,22 +6,22 @@
 # 5 -> 1 0 1 1 0
 # 2
 
-n = int(input('Введите количество монет: '))
-from random import randint
-a, b = 0, 0
-for i in range(n):
-    temp = randint(0, 1)
-    if temp == 0:
-        print("Решка", end=' ')
-    else:
-        print("Орел", end=' ')
-    if temp > 0: a += 1
-    else: b += 1
-print()
-if a > b:
-    print(f'Нужно перевернуть {b} монеток')
-else:
-    print(f'Нужно перевернуть {a} монеток')
+# n = int(input('Введите количество монет: '))
+# from random import randint
+# a, b = 0, 0
+# for i in range(n):
+#     temp = randint(0, 1)
+#     if temp == 0:
+#         print("Решка", end=' ')
+#     else:
+#         print("Орел", end=' ')
+#     if temp > 0: a += 1
+#     else: b += 1
+# print()
+# if a > b:
+#     print(f'Нужно перевернуть {b} монеток')
+# else:
+#     print(f'Нужно перевернуть {a} монеток')
     
 
 
