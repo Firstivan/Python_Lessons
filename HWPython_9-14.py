@@ -6,7 +6,14 @@
 # 5 -> 1 0 1 1 0
 # 2
 
-
+n = input('Введите кол-во монет')
+count = 0
+for i in range(n):
+  if i == 0:
+    continue
+  if (i + 1) % 2 != n % 2 and (i + 1) % 2 != (i - 1) % 2:
+    count += 1
+print(count)
 
 
 # Задача 12: 
