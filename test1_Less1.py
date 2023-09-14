@@ -182,16 +182,16 @@ print(1)'''
 # _______________
 
 
-n = 423
-summa = 0
-while n > 0:
-    x = n % 10
-    summa = summa + x
-    n = n // 10
-else:
-    print('Пожалуй')
-    print('хватит )')
-print(summa)
+# n = 423
+# summa = 0
+# while n > 0:
+#     x = n % 10
+#     summa = summa + x
+#     n = n // 10
+# else:
+#     print('Пожалуй')
+#     print('хватит )')
+# print(summa)
 # _________________
 
 
@@ -231,10 +231,13 @@ print(summa)
 # _____________________
 
 
-# for i in range(5):
-#     print(i)    # в столбец будут цифры: 0 1 2 3 4
+for i in range(5):
+    print(i, end=' ')    # в столбец будут цифры: 0 1 2 3 4
 # ___________________-
 
+i in range(5):
+    # print(i, end=' ')    # в строку будут цифры: 0 1 2 3 4
+# ________
 
 # for i in 'qwerty':
 #     print(i)    # в столбец будут буквы

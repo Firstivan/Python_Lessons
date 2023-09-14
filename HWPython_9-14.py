@@ -6,26 +6,23 @@
 # 5 -> 1 0 1 1 0
 # 2
 
-n = int (input('Введите кол-во монет '))
-count = 0
+n = int(input('Введите количество монет: '))
+from random import randint
+a, b = 0, 0
 for i in range(n):
-  if i == 0:
-    continue
-  if (i + 1) % 2 != n % 2 and (i + 1) % 2 != (i - 1) % 2:
-    count += 1
-print(count)
-
-
-# def flip_coins(n):
-#     count = 0
-#     for i in range(n):
-#         if i == 0:
-#             continue
-#         if ((i + 1) % 2) != n % 2 and ((i + 1) % 2) != ((i - 1) % 2):
-#             count += 1
-#     return count
-# n = int(input("Введите количество монет: "))
-# print("Минимальное количество монет, которые нужно перевернуть:", flip_coins(n))
+    temp = randint(0, 1)
+    if temp == 0:
+        print("Решка", end=' ')
+    else:
+        print("Орел", end=' ')
+    if temp > 0: a += 1
+    else: b += 1
+print()
+if a > b:
+    print(f'Нужно перевернуть {b} монеток')
+else:
+    print(f'Нужно перевернуть {a} монеток')
+    
 
 
 # def минимальное_количество_переворотов(монеты):
