@@ -21,10 +21,10 @@
 # print(-d)
 
 
-# n = int(input("Км за день: "))
-# m = int(input("Расстояние: "))
-# print((m + n - 1) // n)
-# print(f'{m // n} и {p} часов')
+n = int(input("Км за день: "))
+m = int(input("Расстояние: "))
+print((m + n - 1) // n)
+print(f'{m // n} и {p} часов')
 # _______________________________
 
 
@@ -74,11 +74,11 @@
 # Input: 2016
 # Output: YES
 
-year = int(input())
-if (year % 4 == 0) and (year % 100 != 0) or (year % 400 == 0):
-    print('YES')
-else:
-    print('NO')
+# year = int(input())
+# if (year % 4 == 0) and (year % 100 != 0) or (year % 400 == 0):
+#     print('YES')
+# else:
+#     print('NO')
 
 
 # year = int(input("Введите четырехзначное целое число, которое будет обозначать номер года: "))

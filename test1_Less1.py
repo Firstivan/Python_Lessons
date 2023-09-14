@@ -231,11 +231,12 @@ print(1)'''
 # _____________________
 
 
-for i in range(5):
-    print(i, end=' ')    # в столбец будут цифры: 0 1 2 3 4
+# for i in range(5):
+#     print(i)    # в столбец будут цифры: 0 1 2 3 4
 # ___________________-
 
-i in range(5):
+
+# i in range(5):
     # print(i, end=' ')    # в строку будут цифры: 0 1 2 3 4
 # ________
 
@@ -244,10 +245,10 @@ i in range(5):
 # ______________________
 
 
-# line = ""
+# line = " "
 # for i in range(5):
-#     line = ""
-#     for j in range(5):
+#     line = " "
+#     for j in range(3):
 #         line += "*"
 #     print(line)
 
