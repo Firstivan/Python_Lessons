@@ -6,14 +6,32 @@
 # 5 -> 1 0 1 1 0
 # 2
 
-n = input('Введите кол-во монет')
-count = 0
-for i in range(n):
-  if i == 0:
-    continue
-  if (i + 1) % 2 != n % 2 and (i + 1) % 2 != (i - 1) % 2:
-    count += 1
-print(count)
+# n = int (input('Введите кол-во монет '))
+# count = 0
+# for i in range(n):
+#   if i == 0:
+#     continue
+#   if (i + 1) % 2 != n % 2 and (i + 1) % 2 != (i - 1) % 2:
+#     count += 1
+# print(count)
+
+
+# def flip_coins(n):
+#     count = 0
+#     for i in range(n):
+#         if i == 0:
+#             continue
+#         if ((i + 1) % 2) != n % 2 and ((i + 1) % 2) != ((i - 1) % 2):
+#             count += 1
+#     return count
+# n = int(input("Введите количество монет: "))
+# print("Минимальное количество монет, которые нужно перевернуть:", flip_coins(n))
+
+
+def минимальное_количество_переворотов(монеты):
+    количествоРешек = монеты.count('решка')
+    количествоГербов = len(монеты) - количествоРешек
+    return min(количествоРешек, количествоГербов)
 
 
 # Задача 12: 
