@@ -10,7 +10,7 @@
 # ...
 # range и for между собой НИКАК НЕ СВЯЗАНЫ!!!
 # range(begin=необязательный(0), end=обязательный, step=необязательный(+1))
-# print(*range(5))
+print(*range(5))
 # # 0 1 2 3 4
 # print(*range(5, 0, -1))
 # print(*range(5, 13, 2))
@@ -278,16 +278,16 @@
 # #____________________________
 
 
-n = int(input("Введите кол-во дней: "))
-count = 0
-max_count = 0
-for i in range(n):
-    temp = int(input("Введите температуру: "))
-    if temp >= 0:
-        count += 1
-        if max_count < count:
-            max_count = count
-    else:
-        count = 0
-print(max_count)
+# n = int(input("Введите кол-во дней: "))
+# count = 0
+# max_count = 0
+# for i in range(n):
+#     temp = int(input("Введите температуру: "))
+#     if temp >= 0:
+#         count += 1
+#         if max_count < count:
+#             max_count = count
+#     else:
+#         count = 0
+# print(max_count)
 # _______________________________
