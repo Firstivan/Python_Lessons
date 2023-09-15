@@ -32,15 +32,12 @@
 
 
 # def count_min_flips(coins):
-#     # Подсчитываем количество монеток, которые нужно перевернуть
-#     count_heads = coins.count(1)  # Количество монеток решкой
-#     count_tails = coins.count(0)  # Количество монеток гербом
-#     # Возвращаем минимальное из двух значений
+#     count_heads = coins.count(1)  
+#     count_tails = coins.count(0)  
 #     return min(count_heads, count_tails)
-# # Пример использования
 # coins = [1, 0, 1, 1, 0]
 # min_flips = count_min_flips(coins)
-# print("Минимальное количество монеток для переворота:", min_flips)
+# print("Минимальное количество монет для переворота:", min_flips)
 
 
 # Задача 12: 
