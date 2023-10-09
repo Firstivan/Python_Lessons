@@ -1,16 +1,18 @@
 # name = "Ivan"
 # #       0123
 # print(name[0])
-# foreach - C#
-# for element in "Hello", 123, 34.125, True, 'a':
+
+# # foreach - C#
+# for element in "Hello", 123, 34.125, True, False, 'a':
 #     print(element * 2)
 # 0: element = "Hello"
 # 1: element = 123
 # 2: element = 34.125
 # ...
+
 # range и for между собой НИКАК НЕ СВЯЗАНЫ!!!
 # range(begin=необязательный(0), end=обязательный, step=необязательный(+1))
-print(*range(5))
+# print(*type(range(5)))
 # # 0 1 2 3 4
 # print(*range(5, 0, -1))
 # print(*range(5, 13, 2))
@@ -33,11 +35,15 @@ print(*range(5))
 # print("Ivan")
 
 
-# from numpy import arange
+# from numpy import arange  # функция arange() для создания списка последовательных чисел. 
+                            # arange() — одна из функций создания массива библиотеки NumPy
+                            # для создания массива числовых диапазонов.
 
 
 # for i in arange(0.0, 1.23, 0.01):
 #     print(i)
+for i in range(0, 124, 0.01):
+    print(i)
 # _______________________________________
 
 
