@@ -11,8 +11,5 @@ data = pd.DataFrame({'whoAmI':lst})
 # data.head()
 
 one_hot_data = pd.get_dummies(data['whoAmI'])
-
-# Объединяем one hot данные с исходным DataFrame
 data = pd.concat([data, one_hot_data], axis=1)
-
 data.head()
